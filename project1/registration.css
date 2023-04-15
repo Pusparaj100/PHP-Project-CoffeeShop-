@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#COFFEE_SHOP_Registration {
+    text-align: center;
+    color:  #fff ;
+    font-family:Lucida Handwriting;
+
+}
+
+.class{
+    background-color: rgb(216, 177, 118);
+    padding: 30px;
+    
+}
+body {
+    background-color: antiquewhite;
+  }
+  
+  form{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35% ;
+    margin: 10em 14em 19em 31em  ;
+    background: rgb(216, 177, 118);
+    padding: 2em 10em 2em 10em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 20px #777;
+    
+    }
+
+form *{
+    margin : .5em ;
+}
+
+input {
+    border-radius: .5em;   
+    outline: none;
+    border: 2px solid burlywood;
+    padding: .5em;
+    font-weight: normal;
+}
+
+select {
+    border-radius: .5em;
+    background: rgb(189, 166, 244);
+    color: #fff;
+}
+
+select option:focus{
+    background:burlywood;
+}
+
+button {
+    background-color: antiquewhite;
+    border: none;
+    padding: .5em 1em .5em 1em;
+    border-radius: .5em;
+    transition: all .5s;
+}
+
+button:hover{
+    background: #fff;
+    color: rgb(216, 177, 118);
+    cursor: pointer;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(121, 91, 69);
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li.right {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+
+  nav li b {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+  
+  nav li  b:hover {
+    color: rgb(216, 177, 118);
+    cursor: pointer;
+
+  }
+  
+  nav li button {
+    display: block;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    padding: .5em 1em .5em 1em;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: .5em;
+    transition: all .5s;
+  }
+  
+  nav li button:hover {
+    background-color: peachpuff;
+  }
+
+  
+
+

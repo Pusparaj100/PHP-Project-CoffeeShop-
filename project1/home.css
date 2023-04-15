@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.class{
+    background-color: rgb(216, 177, 118);
+    padding: 30px;
+    
+}
+body {
+    background-color: antiquewhite;
+  }
+
+
+#COFFEE_SHOP_text  {
+    text-align: center;
+    color:  #fff ;
+    font-family:Lucida Handwriting;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(121, 91, 69);
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li.right {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+
+  nav li b {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+  
+  nav li  b:hover {
+    background-color: #111;
+
+  }
+  
+  nav li button {
+    display: block;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    padding: .5em 1em .5em 1em;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: .5em;
+    transition: all .5s;
+  }
+  
+  nav li button:hover {
+    background-color: peachpuff;
+  }
+
+@keyframes anim{
+  from {
+    margin-left: 0;
+  }
+  to{
+    margin-left: 3em;
+  }
+}
+
+  #bold_underline_text {
+    color: darkgoldenrod;
+    font-family: monospace;
+    /* background: #f00;   */
+    margin-left: 3em; 
+    width: 20%;
+    margin-top: 3em;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    
+  }
+
+  #paragraph_text  {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    margin-left: 3em;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    background-color: rgb(216, 177, 118);
+    border-radius: 1.5em;
+  }
+  @keyframes nah{
+    from {
+      margin-right: 0;
+    }
+    to{
+      margin-right: 0.5em;
+    }
+  }
+  
+  .img-right {
+    position: absolute;
+    top: 180px;
+    right: 3em;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    background:rgb(121, 91, 69);
+    border-radius: 1.5em;
+    animation-name: nah;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  .img-okey {
+    position: absolute;
+    top: 900px;
+    right: 3em;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    background:rgb(121, 91, 69);
+    border-radius: 1.5em;
+    animation-name: nah;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  
+
+
